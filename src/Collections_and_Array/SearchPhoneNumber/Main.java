@@ -1,9 +1,11 @@
 package Collections_and_Array.SearchPhoneNumber;
 
 public class Main {
-    public static void main(String[] args) {
+
+ public static void main(String[] args) {
         PhoneDictionary phoneDictionary = new PhoneDictionary();
-        var list = phoneDictionary.find("nn");
+        var list = phoneDictionary.find("ser");
+
         list.forEach(it -> {
             System.out.print(it.getName()+" ");
                     System.out.print(it.getSurName()+" ");

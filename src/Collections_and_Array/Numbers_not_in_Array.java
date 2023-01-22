@@ -6,6 +6,7 @@ import java.util.Random;
 public class Numbers_not_in_Array {
     public static void main(String[] args) {
         int [] arr = new int[100];
+
         for (int i = 0; i < arr.length; i++) {
             arr[i] = new Random().nextInt(arr.length+1);
         }
@@ -16,8 +17,10 @@ public class Numbers_not_in_Array {
     }
 
     //временная сложность O(n*n)
+    // по памяти O(n)
     public static int [] searchNumbers(int [] arr){
         int [] arrfull = new int [arr.length];
+
         for (int i = 0,j = 1; i < arr.length; i++,j++) {
             arrfull[i] = j;
         }

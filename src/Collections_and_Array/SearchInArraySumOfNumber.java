@@ -4,6 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
+/**
+ * leetcode tosam
+ */
+
+
 public class SearchInArraySumOfNumber {
     public static void main(String[] args) {
         int [] arr = new int[100];
@@ -16,9 +21,11 @@ public class SearchInArraySumOfNumber {
     }
 
     // сложность по времени O(n*n)
-    // сложность по памяти
+    // сложность 0(n) памяти
+
     public static Map search(int n,int [] arry){
         Map<Integer,Integer> numbers = new HashMap<>();
+
         for (int i = 0; i < arry.length; i++) {
             for (int j = 0; j < arry.length; j++) {
                 if (arry[i] + arry[j] == n){

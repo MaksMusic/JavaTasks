@@ -21,6 +21,8 @@ public class SearсhForDeletedElement {
 
     //временная сложность O(n*n)
     //сложность по памяти O(1)
+
+
     public static Integer searchDeleteElement(ArrayList<Integer> listOriginal, ArrayList<Integer> lisCopy) {
         for (int i = 0; i < listOriginal.size(); i++) {
             if (lisCopy.contains(listOriginal.get(i))){
