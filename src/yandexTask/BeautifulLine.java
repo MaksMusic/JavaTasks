@@ -6,6 +6,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+/**
+ *
+ *
+ *
+ */
+
 public class BeautifulLine {
     public static void main(String[] args) {
         int number= 0;
