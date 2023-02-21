@@ -1,3 +1,4 @@
+package yandexTask;
 import java.util.Scanner;
 
 /**
@@ -25,7 +26,7 @@ import java.util.Scanner;
  *
  *
  */
-public class Main {
+public class Heapsort {
 
     private static int[] heap;
     private static int heapSize;
