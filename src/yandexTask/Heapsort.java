@@ -1,4 +1,5 @@
 package yandexTask;
+import java.io.Closeable;
 import java.util.Scanner;
 
 /**
@@ -26,7 +27,8 @@ import java.util.Scanner;
  *
  *
  */
-public class Heapsort {
+public class Heapsort  {
+
 
     private static int[] heap;
     private static int heapSize;
